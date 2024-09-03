@@ -1,0 +1,85 @@
+body
+{
+    font-family: "Figtree";    
+    background-color: #141414;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+
+.content
+{
+    background-color: #1F1F1F;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;       
+    align-items: center;
+    border-radius: 15px;
+    padding: 1rem;       
+}
+
+.content .content-img
+{
+    border-radius: 50%;
+    width: 80px;    
+}
+
+.content .content-title
+{
+    color: white;
+    font-size: 22px;
+    margin: 20px 0px 5px;
+}
+
+.content .content-subtitle-1
+{
+    color: #BBD64B;
+    font-size: 15px;
+    margin: 7px;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.content .content-subtitle-2
+{
+    color: white;
+    font-size: 13px;
+    padding: 0px 0px 5px;
+    max-width: 280px;
+    text-align: center;
+}
+
+.group-button
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+button
+{
+    color: white;
+    background-color: #333333;
+    border: none;    
+    font-size: 13px;
+    width: 280px;
+    height: 40px;
+    margin: 6px;    
+    border-radius: 10px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover , button:focus{
+    background-color: #BBD64B;
+    color: black;
+}
